@@ -20,6 +20,7 @@ The API demonstrate how to configure Authentication and Authorization in Spring 
 - [Authentication](#authentication)
 - [Database](#database)
 - [Contributing](#contributing)
+- [Screenshots](#screenshots)
 
 ## Installation
 
@@ -38,8 +39,8 @@ git clone https://github.com/kenzor1979/auth-api.git
 1. Start the application with Maven
 2. The API will be accessible at http://localhost:8080
 
-
 ## API Endpoints
+
 The API provides the following endpoints:
 
 ```markdown
@@ -53,6 +54,7 @@ POST /auth/register - Register a new user into the App
 ```
 
 ## Authentication
+
 The API uses Spring Security for authentication control. The following roles are available:
 
 ```
@@ -64,6 +66,7 @@ To access protected endpoints as an ADMIN user, provide the appropriate authenti
 Authorization type is Bearer Token.
 
 ## Database
+
 The project utilizes [MySQL](https://www.mysql.com/) as the database. 
 
 It is necessary to create a schema named "auth" or change the schema name in the "application.properties" file.
@@ -74,3 +77,25 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 When contributing to this project, please follow the existing code style, [commit conventions](https://www.conventionalcommits.org/en/v1.0.0/), and submit your changes in a separate branch.
 
+## Screenshots
+
+Register as Admin Role
+![Register as Admin](https://github.com/kenzor1979/auth-api/blob/main/img/registerAsAdmin.gif?raw=true&sanitize=true)
+
+Register as User Role
+![Register as User](https://github.com/kenzor1979/auth-api/blob/main/img/registerAsUserRole.gif?raw=true&sanitize=true)
+
+Login
+![Login](https://github.com/kenzor1979/auth-api/blob/main/img/login.gif?raw=true&sanitize=true)
+
+Authorization
+![Authorization](https://github.com/kenzor1979/auth-api/blob/main/img/authorization.gif?raw=true&sanitize=true)
+
+Post
+![post](https://github.com/kenzor1979/auth-api/blob/main/img/post.gif?raw=true&sanitize=true)
+
+MySQL table products
+![MySQL products](https://github.com/kenzor1979/auth-api/blob/main/img/MySQLproducts.png?raw=true&sanitize=true)
+
+MySQL table users
+![MySQL users](https://github.com/kenzor1979/auth-api/blob/main/img/MySQLusers.png?raw=true&sanitize=true)
