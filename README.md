@@ -74,7 +74,3 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 When contributing to this project, please follow the existing code style, [commit conventions](https://www.conventionalcommits.org/en/v1.0.0/), and submit your changes in a separate branch.
 
-
-
-
-# auth-api
